@@ -208,7 +208,6 @@ DEPENDENCIES
   guard-minitest
   jbuilder (~> 2.0)
   jquery-rails
-  listen
   mini_backtrace
   minitest-reporters
   pg
