@@ -10,6 +10,7 @@ gem 'bootstrap'
 # gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
 gem 'listen'
+gem 'bcrypt'
 gem 'sass-rails', '~> 5.0'
 gem 'autoprefixer-rails'
 # Use Uglifier as compressor for JavaScript assets
