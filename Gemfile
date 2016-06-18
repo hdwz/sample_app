@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '>= 5.0.0.rc1', '< 5.1'
-gem 'bcrypt'
+gem 'bootstrap'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
 # Use Puma as the app server
@@ -11,6 +11,7 @@ gem 'bcrypt'
 # Use SCSS for stylesheets
 gem 'listen'
 gem 'sass-rails', '~> 5.0'
+gem 'autoprefixer-rails'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -49,6 +50,7 @@ group :test do
   gem 'mini_backtrace'
   gem 'guard' # note: this is necessary in newer versions
   gem 'guard-minitest'
+  gem 'rails-controller-testing'
 end
 
 group :production do
