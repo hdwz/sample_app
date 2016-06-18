@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '>= 5.0.0.rc1', '< 5.1'
-gem 'bootstrap-sass', '3.2.0.0'
+gem 'bcrypt'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
 # Use Puma as the app server
@@ -49,7 +49,6 @@ group :test do
   gem 'mini_backtrace'
   gem 'guard' # note: this is necessary in newer versions
   gem 'guard-minitest'
-  gem 'rails-controller-testing'
 end
 
 group :production do
